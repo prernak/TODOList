@@ -43,7 +43,7 @@ public class BookDetailsDAO{
 
 			// Setup the connection with the DB
 			connect = DriverManager.getConnection("jdbc:mysql://localhost/bookstore?"
-					+ "user=root&password=pavan");
+					+ "user=root&password=passowrd");
 
 			preparedStatement = connect
 					.prepareStatement("select title, price, name from book, author where book.authorid = author.id and book.title=?");
@@ -82,7 +82,7 @@ public class BookDetailsDAO{
 
 			// Setup the connection with the DB
 			connect = DriverManager.getConnection("jdbc:mysql://localhost/bookstore?"
-					+ "user=root&password=pavan");
+					+ "user=root&password=password");
 
 			preparedStatement = connect
 					.prepareStatement("select title, price, name from book, author where book.authorid = author.id and name=?");
