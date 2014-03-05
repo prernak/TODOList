@@ -48,7 +48,6 @@ public class ajaxTaskDetail extends HttpServlet {
 			Transformer trans = tFactory.newTransformer(new StreamSource(
 					"getTaskDetailXsl" + ".xsl"));
 			trans.setParameter("taskId", taskId);
-			//trans.setParameter("username", "rahul");
 			trans.transform(new StreamSource("todo" + ".xml"),
 					new StreamResult(response.getOutputStream()));
 		} catch (TransformerException te) {
