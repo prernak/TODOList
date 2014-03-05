@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<todoList>
+<user id="u1">
+<catagory id="personal">
+	<task id="t1">	
+	<title>milk</title>
+	<description>get the milk</description>
+	<priority>high</priority>
+	<status>pending</status>
+</task>
+
+<task id="t2">
+	<title>icecream</title>
+	<description>get the icecream</description>
+	<priority>high</priority>
+	<status>done</status>
+</task>
+</catagory>
+</user>
+
+<user id="u2">
+<catagory id="personal">
+<task id="t3">
+	<title>watch movie</title>
+	<description>watch a nice movie</description>
+	<priority>high</priority>
+	<status>pending</status>
+</task>
+<task id="t1">
+	<title>walk</title>
+	<description>go for a walk</description>
+	<priority>low</priority>
+	<status>done</status>
+</task>
+</catagory>
+</user>
+</todoList>

@@ -1,0 +1,151 @@
+<todolist>
+	<user ID="u9111">
+		<name>Reda Elbahi</name>
+		<category ID="c111">
+			<name>HouseChores</name>
+			<Task ID="t0001">
+				<title>clean the backyard</title>
+				<duedate>12/02/13</duedate>
+				<description>cut the grass and paint the wall</description>
+				<contributors>
+					<contributor ID="b19919">
+						<name>john smith</name>
+						<email>jsmith@gmail.com</email>
+						<address>100 soptnight st 14553</address>
+						<phoneNumber>9902387623</phoneNumber>
+					</contributor>
+				</contributors>
+				<status ID="s100"></status>
+				<priority ID="p999"></priority>
+
+			</Task>
+			<Task ID="t187725">
+				<duedate>02/23/13</duedate>
+				<contributors>
+					<contributor ID="b12233">
+						<name>gosh totline"</name>
+						<email>goshw@aol.com</email>
+						<address>234 tourline rd , denver , co 17829</address>
+						<phoneNumber>3037825698</phoneNumber>
+					</contributor>
+					<contributor ID="b773398">
+						<name>Adam Sandler</name>
+						<email>ggh@hotmail.com</email>
+						<address>4009 conrad st , Rochester , NY 14905</address>
+						<phoneNumber>5859047612</phoneNumber>
+					</contributor>
+				</contributors>
+				<description>can be done only on sunny days</description>
+				<title>set the hood</title>
+				<status ID="s666"></status>
+				<priority ID="p300"></priority>
+			</Task>
+		</category>
+		<category ID="c23009">
+			<name>HouseChores</name>
+			<Task ID="t12937">
+				<contributors>
+					<contributor ID="12387">
+						<email>hshaloy@rit.edu</email>
+						<name>hanton sholly</name>
+						<address>7644 dingland ave , denver , co 54893</address>
+						<phoneNumber>3034569834</phoneNumber>
+					</contributor>
+				</contributors>
+				<duedate>09/12/13</duedate>
+				<description>needs some extra tools</description>
+				<title>change the porch</title>
+				<status ID="s300"></status>
+				<priority ID="p888"></priority>
+			</Task>
+		</category>
+	</user>
+	<user ID="u87490">
+		<name>Rahul</name>
+		<category ID="c33454">
+			<name>School</name>
+			<Task ID="t76489">
+				<contributors>
+					<contributor ID="b554674">
+						<name>gohten sali</name>
+						<email>hoste@yahoo.com</email>
+						<address>44645 s menton BLVD, litteleton, co 29038</address>
+						<phoneNumber>3034567289</phoneNumber>
+					</contributor>
+				</contributors>
+				<duedate>08/12/13</duedate>
+				<description>to finish the research paper for the data mining
+				</description>
+				<title>data mining research courswork</title>
+				<status ID="s100"></status>
+				<priority ID="888"></priority>
+			</Task>
+		</category>
+		<category ID="c34511">
+			<name>shopping</name>
+			<Task ID="t09234">
+				<contributors>
+					<contributor ID="b74356">
+						<email>rm@hotmail.com</email>
+						<name>Rachell Norshton</name>
+						<address>9800 N 24th st , Watterllo , CO 45893</address>
+						<phoneNumber>2067239045</phoneNumber>
+					</contributor>
+				</contributors>
+				<duedate>02/22/13</duedate>
+				<description>shop for shoes and clothes from mall</description>
+				<title>monthly shopping</title>
+				<status ID="s100"></status>
+				<priority ID="p777"></priority>
+			</Task>
+		</category>
+		<category ID="c13009">
+			<name>Work</name>
+			<Task ID="t33023">
+				<contributors>
+					<contributor ID="77454">
+						<email>sanm@hotmail.com</email>
+						<name>Sandy collin</name>
+						<address>23902 s marshall ave , littelton, co 78345</address>
+						<phoneNumber>903883243</phoneNumber>
+					</contributor>
+				</contributors>
+				<duedate>09/22/13</duedate>
+				<description>meeting with the excutive manager of fox news to setup
+					the agreement </description>
+				<title>foxnews meeting</title>
+				<priority>high</priority>
+				<status>pending</status>
+			</Task>
+		</category>
+	</user>
+	<user ID="u000234">
+		<name>Sam Nicholas</name>
+		<category ID="c234">
+			<name>others</name>
+
+			<Task ID="t90231">
+				<contributors>
+					<contributor ID="b11120">
+						<name>sandin hotl</name>
+						<address>19802 mango dr , Delmar , CA 18902</address>
+						email="snichol@gmail.com"
+						<phoneNumber>3102208932</phoneNumber>
+					</contributor>
+					<contributor ID="b33292">
+						<email>reii@roll.net</email>
+						<name>Michel jackson</name>
+						<address>892 Hollywood blvd , Los Angeles, ca 49004</address>
+						<phoneNumber>3109826223</phoneNumber>
+					</contributor>
+				</contributors>
+				<duedate>05/30/13</duedate>
+				<description>San Deigo Annual Swimming Cometetion is running on the
+					ocean</description>
+				<title>swimming competetion</title>
+				<priority ID="p111"></priority>
+				<status ID="s200"></status>
+			</Task>
+		</category>
+	</user>
+</todolist>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>TodoListClient</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>login.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Client</display-name>
+    <servlet-name>Client</servlet-name>
+    <servlet-class>com.rit.todolist.client.Client</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Client</servlet-name>
+    <url-pattern>/Client</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ajaxTaskDetail</display-name>
+    <servlet-name>ajaxTaskDetail</servlet-name>
+    <servlet-class>com.rit.todolist.client.ajaxTaskDetail</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ajaxTaskDetail</servlet-name>
+    <url-pattern>/ajaxTaskDetail</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>AddTaskServlet</display-name>
+    <servlet-name>AddTaskServlet</servlet-name>
+    <servlet-class>com.rit.todolist.client.AddTaskServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddTaskServlet</servlet-name>
+    <url-pattern>/AddTaskServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

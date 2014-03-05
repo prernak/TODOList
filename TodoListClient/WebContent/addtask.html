@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>addtask</title>
+</head>
+
+<body>
+<FORM METHOD="LINK" method="get" ACTION="AddTaskServlet">
+<p><strong><label style="font-size:22px">Add A Task</label>
+</strong>											    			</p>
+<p>
+  <label><strong>Title</strong></label>
+  <input type="text" name="titleField" id="titleField" />
+  <strong>Catagory</strong>
+<select name="catagory" id="catagory" style="width:100px">
+  <option value="HouseChores">House Chores</option>
+  <option value="Shopping">Shopping</option>
+  <option value="School">School</option>
+  <option value="Work">Work</option>
+  <option value="Other">Other</option>
+</select>
+  <label><strong>Priority</strong></label>
+  &nbsp;
+  <label for="priorityCombo"></label>
+  <select name="priorityCombo" id="priorityCombo" style="width:100px">
+  <option value="Do it Now">Do it Now</option>
+  <option value="High">High</option>
+  <option value="Medium">Medium</option>
+  <option value="Low">Low</option>
+  <option value="Do whenever you want">Do whenever you want</option>
+  </select>
+  
+  <label><strong>Due Date</strong></label>
+  &nbsp;
+  <label for="dateField2"></label>
+  <input type="text" name="dateField" id="dateField2" />
+</p>
+<p><label><strong>Description</strong></label>
+<strong>&nbsp;</strong></p>
+<p> 
+  <label for="descField"></label>
+  <label for="descField"></label>
+  <textarea name="descField" id="descField" cols="45" rows="5"></textarea>
+</p>
+<p><strong>Conributor</strong></p>
+<table width="550" border="1">
+  <tr>
+    <td>Name</td>
+    <td>E-mail</td>
+    <td>Phone</td>
+    <td>Address</td>
+  </tr>
+  <tr>
+    <td>
+      <label>
+        <input type="text" name="textfield" id="textfield" />
+      </label>
+    </td>
+    <td><form id="form2" name="form2" method="post" action="">
+      <label>
+        <input type="text" name="textfield2" id="textfield2" />
+      </label>
+    </form></td>
+    <td><form id="form3" name="form3" method="post" action="">
+      <label>
+        <input type="text" name="textfield3" id="textfield3" />
+      </label>
+    </form></td>
+    <td><form id="form4" name="form4" method="post" action="">
+      <label>
+        <input type="text" name="textfield4" id="textfield4" />
+      </label>
+    </form></td>
+  </tr>
+  <tr>
+    <td><form id="form5" name="form5" method="post" action="">
+      <label>
+        <input type="text" name="textfield5" id="textfield5" />
+      </label>
+    </form></td>
+    <td><form id="form6" name="form6" method="post" action="">
+      <label>
+        <input type="text" name="textfield6" id="textfield6" />
+      </label>
+    </form></td>
+    <td><form id="form7" name="form7" method="post" action="">
+      <label>
+        <input type="text" name="textfield7" id="textfield7" />
+      </label>
+    </form></td>
+    <td><form id="form8" name="form8" method="post" action="">
+      <label>
+        <input type="text" name="textfield8" id="textfield8" />
+      </label>
+    </form></td>
+  </tr>
+  <tr>
+    <td><form id="form9" name="form9" method="post" action="">
+      <label>
+        <input type="text" name="textfield9" id="textfield9" />
+      </label>
+    </form></td>
+    <td><form id="form10" name="form10" method="post" action="">
+      <label>
+        <input type="text" name="textfield10" id="textfield10" />
+      </label>
+    </form></td>
+    <td><form id="form11" name="form11" method="post" action="">
+      <label>
+        <input type="text" name="textfield11" id="textfield11" />
+      </label>
+    </form></td>
+    <td><form id="form12" name="form12" method="post" action="">
+      <label>
+        <input type="text" name="textfield12" id="textfield12" />
+      </label>
+    </form></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>
+   
+  <input type="submit" name="addTaskButton" id="addTaskButton" value="Add Task" style="width:100px;font-size:larger"/>
+  <input type="submit" name="addTaskButton" id="addTaskButton" value="<< Back" style="width:100px;font-size:larger"/>
+  </FORM>
+</p>
+</body>
+</html>

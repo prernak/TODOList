@@ -1,0 +1,13 @@
+<supportingData>
+	<priorities>
+		<priority id="p1" value="Do it Now"/>
+		<priority id="p1" value="High"/>
+		<priority id="p1" value="Medium"/>
+		<priority id="p1" value="Low"/>
+		<priority id="p1" value="Do whenever you want"/>
+	</priorities>
+	<statusList>
+		<status id="s1" value="Pending"/>
+		<status id="s2" value="Completed"/>
+	</statusList>
+</supportingData>
