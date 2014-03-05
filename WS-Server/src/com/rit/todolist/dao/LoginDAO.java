@@ -42,7 +42,7 @@ public class LoginDAO {
 
 			// Setup the connection with the DB
 			connect = DriverManager.getConnection("jdbc:mysql://localhost/bookstore?"
-					+ "user=root&password=pavan");
+					+ "user=root&password=password");
 
 			preparedStatement = connect
 					.prepareStatement("SELECT * from userinfo where username=?");
@@ -81,7 +81,7 @@ public class LoginDAO {
 
 			// Setup the connection with the DB
 			connect = DriverManager.getConnection("jdbc:mysql://localhost/dem?"
-					+ "user=root&password=root");
+					+ "user=root&password=password");
 
 
 
