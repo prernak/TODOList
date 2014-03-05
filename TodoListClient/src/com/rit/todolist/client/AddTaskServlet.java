@@ -89,27 +89,23 @@ public class AddTaskServlet extends HttpServlet {
 		try {
 			modifiyXML(task);
 		} catch (ParserConfigurationException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (SAXException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (TransformerFactoryConfigurationError e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (TransformerException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
-		String username="rahul";
+		String username = request.getParameter("username"));
 
 		TransformerFactory tFactory = TransformerFactory.newInstance();
 		try {
 			Transformer trans = tFactory.newTransformer(new StreamSource(
 					"todoXsl" + ".xsl"));
 			trans.setParameter("userid", UserUtil.getUserId(username));
-			trans.setParameter("username", "rahul");
+			trans.setParameter("username", username);
 			trans.transform(new StreamSource("todo" + ".xml"),
 					new StreamResult(response.getOutputStream()));
 		} catch (TransformerException te) {
@@ -142,7 +138,6 @@ public class AddTaskServlet extends HttpServlet {
 		status.setTextContent("s1");
 		newTask.appendChild(status);
 		Element priority = dom.createElement("priority");
-		//		priority.setTextContent(PriorityStatusUtil.getPriorityId(task.getPriority()));
 		priority.setTextContent(task.getPriority());
 		newTask.appendChild(priority);
 		Element desc = dom.createElement("description");
@@ -195,24 +190,6 @@ public class AddTaskServlet extends HttpServlet {
 		Node node = (Node) result;
 		node.appendChild(newTask);
 
-		//		for(int i = 0; i < users.getLength(); i++) {
-		//			Node user = (Node) users.item(i);
-		//			NamedNodeMap attrs = user.getAttributes();	
-		//			String userid = ((Attr)attrs.item(0)).getNodeValue();	
-		//			if (userid.equals("u9111")) {
-		//				Node child =null;
-		//				NodeList children = user.getChildNodes();
-		//				for (int j = 0; j < children.getLength(); j++){
-		//					 child = (Node) children.item(i);
-		//					 if(child.hasAttributes()) {
-		//						 System.out.println(((Attr)child.getAttributes().item(0)).getNodeValue());
-		//					 }
-		//					if (child.getNodeName().equals("catagory") && child.getFirstChild().getNodeValue().equals(task.getCatagory())) {
-		//						((NodeList)user.getChildNodes()).item(3).appendChild(newTask);
-		//					}
-		//				}
-		//			}
-		//		}
 
 		Transformer transformer = TransformerFactory.newInstance().newTransformer();
 		transformer.setOutputProperty(OutputKeys.INDENT, "yes");
