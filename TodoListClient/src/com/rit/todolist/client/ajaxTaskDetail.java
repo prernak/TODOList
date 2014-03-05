@@ -36,8 +36,8 @@ public class ajaxTaskDetail extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String username = "rahul";//request.getParameter("username");
-		String password = "prerna";//request.getParameter("password");
+		String username = request.getParameter("username");
+		String password = request.getParameter("password");
 		
 		String taskId=request.getParameter("taskId");
 		response.setContentType("text/html");
